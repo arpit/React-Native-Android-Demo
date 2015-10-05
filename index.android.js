@@ -32,7 +32,7 @@ getInitialState: function() {
         title='My Awesome App' />
 
         <Text style={styles.instructions}>
-          To get started, edit index.android.js
+          This simple example shows how to handle clicks from a button
         </Text>
         
         <TouchableOpacity onPress={this.handlePress}>
@@ -60,18 +60,15 @@ var styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
   instructions: {
     textAlign: 'center',
     color: '#333333',
     marginBottom: 5,
+    fontSize: 18,
+    margin: 30
   },
   toolbar: {
-    backgroundColor: '#FF6600',
+    backgroundColor: '#000000',
     height: 56,
   },
   button:{
